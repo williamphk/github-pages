@@ -7,6 +7,9 @@
     <title>Document</title>
   </head>
   <body>
+    <a href="index">Home</a>
+    <a href="about">About</a>
+
     <h1>My Home Page</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolore enim
@@ -15,5 +18,37 @@
     </p>
 
     <img src="https://picsum.photos/200" alt="random image" />
+
+    <a href="https://williamphk.github.io/github-pages/about.html">About</a>
+    <!--  Work: Yes
+    Broswer: https://williamphk.github.io/github-pages/about.html
+    Local: No -->
+
+    <a href="/github-pages/about.html">About</a>
+    <!--  Work: Yes
+    Broswer: https://williamphk.github.io/github-pages/about.html
+    Local: C:/github-pages/pages/index.html - No -->
+
+    <a href="/about.html">About</a>
+    <!--  Work: No
+    Broswer: https://williamphk.github.io/about.html
+    Local: C:/about.html - No -->
+
+    <!-- Best Method -->
+    <a href="about.html">About</a>
+    <!--  Work: Yes
+    Broswer: https://williamphk.github.io/github-pages/about.html
+    Local: C:/User/Desktop/willphk/github-pages/about.html - Yes -->
+
+    <!-- Best Method, but require a local server like MAMP -->
+    <a href="about">About</a>
+    <!--  Work: Yes
+    Broswer: https://williamphk.github.io/github-pages/about
+    Local: C:/User/Desktop/willphk/github-pages/about -  No -->
+
+    <a href="github-pages/about.html">About</a>
+    <!--  Work: No
+    Broswer: https://williamphk.github.io/github-pages/github-pages/about.html
+    Local: C:/User/Desktop/willphk/github-pages/github-pages/about.html - No -->
   </body>
 </html>
